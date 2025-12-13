@@ -1,0 +1,335 @@
+<main id="main-content" dir="rtl">
+
+  <!-- ===== HERO ===== -->
+  <section class="blog-hero" aria-labelledby="blog-hero-title">
+    <nav class="breadcrumb" aria-label="breadcrumb">
+      <ol>
+        <li><a href="https://www.booking.ir/">بوکینگ</a></li>
+        <li aria-current="page"><span>بلاگ</span></li>
+      </ol>
+    </nav>
+
+    <h1 id="blog-hero-title">مطالب آموزشی</h1>
+    <p class="blog-hero__desc">
+      راهنماها و نکات کاربردی برای رشد آنلاین کسب‌وکارتان؛ از سئو و محتوا تا ابزارها و تحلیل داده.
+    </p>
+  </section>
+
+  <!-- ===== FEED ===== -->
+  <section class="blog-feed" aria-labelledby="blog-feed-title">
+    <h2 id="blog-feed-title" class="visually-hidden">فید مقالات</h2>
+
+    <!-- Featured (1 + 2) in a single list -->
+    <ul class="feed feed--featured" aria-label="پست‌های شاخص">
+      <!-- XL: full-width on desktop -->
+      <li class="is-xl">
+        <a href="/blog/post/slug-1/" class="post-link">
+          <article class="post post--xl" itemscope itemtype="https://schema.org/Article">
+            <figure class="post__media" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+              <picture>
+                <source type="image/avif" srcset="/media/blog/hero-1200.avif 1200w, /media/blog/hero-800.avif 800w" sizes="(min-width: 992px) 960px, 100vw">
+                <source type="image/webp" srcset="/media/blog/hero-1200.webp 1200w, /media/blog/hero-800.webp 800w" sizes="(min-width: 992px) 960px, 100vw">
+                <img src="/media/blog/hero-800.jpg"
+                     srcset="/media/blog/hero-1200.jpg 1200w, /media/blog/hero-800.jpg 800w, /media/blog/hero-480.jpg 480w"
+                     sizes="(min-width: 992px) 960px, 100vw"
+                     alt="نمای مقاله شاخص"
+                     width="960" height="540" loading="lazy" decoding="async">
+              </picture>
+              <meta itemprop="url" content="https://www.booking.ir/media/blog/hero-1200.jpg">
+              <meta itemprop="width" content="1200">
+              <meta itemprop="height" content="675">
+            </figure>
+
+            <!-- Category chip: accessible JS link (not nested <a>) -->
+            <span class="post__category"
+                  role="link"
+                  tabindex="0"
+                  aria-label="مشاهده مقالات دسته سئو"
+                  onclick="event.preventDefault();event.stopPropagation();window.location='/blog/category/seo/';"
+                  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();window.location='/blog/category/seo/';}">
+              سئو
+            </span>
+
+            <h3 class="post__title" itemprop="headline">معرفی بهترین ابزارهای آنالیتیکس برای تصمیم‌گیری سریع</h3>
+            <p class="post__excerpt" itemprop="description">مقایسه کاربردی ابزارهای تحلیل داده جهت گزارش‌گیری، پایش KPIها و بهینه‌سازی قیف تبدیل…</p>
+
+            <dl class="post__meta">
+              <div>
+                <dt class="visually-hidden">نویسنده</dt>
+                <dd class="post__author" itemprop="author">شایان حامدی</dd>
+              </div>
+              <div>
+                <dt class="visually-hidden">مدت زمان مطالعه</dt>
+                <dd class="post__readtime" itemprop="timeRequired">۶ دقیقه</dd>
+              </div>
+            </dl>
+          </article>
+        </a>
+      </li>
+
+      <!-- LG x 2: half-width on desktop -->
+      <li class="is-lg">
+        <a href="/blog/post/slug-2/" class="post-link">
+          <article class="post post--lg" itemscope itemtype="https://schema.org/Article">
+            <figure class="post__media" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+              <picture>
+                <source type="image/avif" srcset="/media/blog/p2-900.avif 900w, /media/blog/p2-600.avif 600w" sizes="(min-width: 1200px) 560px, (min-width: 992px) 48vw, 100vw">
+                <source type="image/webp" srcset="/media/blog/p2-900.webp 900w, /media/blog/p2-600.webp 600w" sizes="(min-width: 1200px) 560px, (min-width: 992px) 48vw, 100vw">
+                <img src="/media/blog/p2-600.jpg"
+                     srcset="/media/blog/p2-900.jpg 900w, /media/blog/p2-600.jpg 600w, /media/blog/p2-360.jpg 360w"
+                     sizes="(min-width: 1200px) 560px, (min-width: 992px) 48vw, 100vw"
+                     alt="تصویر مقاله"
+                     width="560" height="320" loading="lazy" decoding="async">
+              </picture>
+              <meta itemprop="url" content="https://www.booking.ir/media/blog/p2-900.jpg">
+              <meta itemprop="width" content="900">
+              <meta itemprop="height" content="512">
+            </figure>
+
+            <span class="post__category"
+                  role="link"
+                  tabindex="0"
+                  aria-label="مشاهده مقالات دسته مارکتینگ"
+                  onclick="event.preventDefault();event.stopPropagation();window.location='/blog/category/marketing/';"
+                  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();window.location='/blog/category/marketing/';}">
+              مارکتینگ
+            </span>
+
+            <h3 class="post__title" itemprop="headline">استراتژی تولید محتوا برای برندهای گردشگری</h3>
+            <p class="post__excerpt" itemprop="description">چطور تقویم محتوایی بسازیم و بازدهی را بسنجیم…</p>
+
+            <dl class="post__meta">
+              <div>
+                <dt class="visually-hidden">نویسنده</dt>
+                <dd class="post__author" itemprop="author">نیلوفر</dd>
+              </div>
+              <div>
+                <dt class="visually-hidden">مدت زمان مطالعه</dt>
+                <dd class="post__readtime" itemprop="timeRequired">۴ دقیقه</dd>
+              </div>
+            </dl>
+          </article>
+        </a>
+      </li>
+
+      <li class="is-lg">
+        <a href="/blog/post/slug-3/" class="post-link">
+          <article class="post post--lg" itemscope itemtype="https://schema.org/Article">
+            <figure class="post__media" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+              <picture>
+                <source type="image/avif" srcset="/media/blog/p3-900.avif 900w, /media/blog/p3-600.avif 600w" sizes="(min-width: 1200px) 560px, (min-width: 992px) 48vw, 100vw">
+                <source type="image/webp" srcset="/media/blog/p3-900.webp 900w, /media/blog/p3-600.webp 600w" sizes="(min-width: 1200px) 560px, (min-width: 992px) 48vw, 100vw">
+                <img src="/media/blog/p3-600.jpg"
+                     srcset="/media/blog/p3-900.jpg 900w, /media/blog/p3-600.jpg 600w, /media/blog/p3-360.jpg 360w"
+                     sizes="(min-width: 1200px) 560px, (min-width: 992px) 48vw, 100vw"
+                     alt="تصویر مقاله"
+                     width="560" height="320" loading="lazy" decoding="async">
+              </picture>
+              <meta itemprop="url" content="https://www.booking.ir/media/blog/p3-900.jpg">
+              <meta itemprop="width" content="900">
+              <meta itemprop="height" content="512">
+            </figure>
+
+            <span class="post__category"
+                  role="link"
+                  tabindex="0"
+                  aria-label="مشاهده مقالات دسته محصول"
+                  onclick="event.preventDefault();event.stopPropagation();window.location='/blog/category/product/';"
+                  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();window.location='/blog/category/product/';}">
+              محصول
+            </span>
+
+            <h3 class="post__title" itemprop="headline">راهنمای ورود به طراحی تجربه کاربری</h3>
+            <p class="post__excerpt" itemprop="description">اصول پایه، ابزارهای ضروری و اشتباهات رایج…</p>
+
+            <dl class="post__meta">
+              <div>
+                <dt class="visually-hidden">نویسنده</dt>
+                <dd class="post__author" itemprop="author">امیر</dd>
+              </div>
+              <div>
+                <dt class="visually-hidden">مدت زمان مطالعه</dt>
+                <dd class="post__readtime" itemprop="timeRequired">۷ دقیقه</dd>
+              </div>
+            </dl>
+          </article>
+        </a>
+      </li>
+    </ul>
+
+    <!-- Regular latest (3 columns) -->
+    <ul class="feed feed--regular" aria-label="آخرین مقالات">
+      <li>
+        <a href="/blog/post/slug-4/" class="post-link">
+          <article class="post" itemscope itemtype="https://schema.org/Article">
+            <figure class="post__media" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+              <picture>
+                <source type="image/avif" srcset="/media/blog/p4-600.avif 600w, /media/blog/p4-400.avif 400w" sizes="(min-width: 1200px) 360px, (min-width: 992px) 31vw, 100vw">
+                <source type="image/webp" srcset="/media/blog/p4-600.webp 600w, /media/blog/p4-400.webp 400w" sizes="(min-width: 1200px) 360px, (min-width: 992px) 31vw, 100vw">
+                <img src="/media/blog/p4-400.jpg"
+                     srcset="/media/blog/p4-600.jpg 600w, /media/blog/p4-400.jpg 400w, /media/blog/p4-300.jpg 300w"
+                     sizes="(min-width: 1200px) 360px, (min-width: 992px) 31vw, 100vw"
+                     alt="تصویر مقاله"
+                     width="360" height="200" loading="lazy" decoding="async">
+              </picture>
+              <meta itemprop="url" content="https://www.booking.ir/media/blog/p4-600.jpg">
+              <meta itemprop="width" content="600">
+              <meta itemprop="height" content="334">
+            </figure>
+
+            <span class="post__category"
+                  role="link"
+                  tabindex="0"
+                  aria-label="مشاهده مقالات دسته سئو"
+                  onclick="event.preventDefault();event.stopPropagation();window.location='/blog/category/seo/';"
+                  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();window.location='/blog/category/seo/';}">
+              سئو
+            </span>
+
+            <h3 class="post__title" itemprop="headline">قانون E-E-A-T چیست و چرا مهم است؟</h3>
+            <p class="post__excerpt" itemprop="description">مروری کوتاه بر تجربه، تخصص، اعتبار و اعتماد…</p>
+
+            <dl class="post__meta">
+              <div>
+                <dt class="visually-hidden">نویسنده</dt>
+                <dd class="post__author" itemprop="author">شایان حامدی</dd>
+              </div>
+              <div>
+                <dt class="visually-hidden">مدت زمان مطالعه</dt>
+                <dd class="post__readtime" itemprop="timeRequired">۵ دقیقه</dd>
+              </div>
+            </dl>
+          </article>
+        </a>
+      </li>
+
+      <li>
+        <a href="/blog/post/slug-5/" class="post-link">
+          <article class="post" itemscope itemtype="https://schema.org/Article">
+            <figure class="post__media" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+              <picture>
+                <source type="image/avif" srcset="/media/blog/p5-600.avif 600w, /media/blog/p5-400.avif 400w" sizes="(min-width: 1200px) 360px, (min-width: 992px) 31vw, 100vw">
+                <source type="image/webp" srcset="/media/blog/p5-600.webp 600w, /media/blog/p5-400.webp 400w" sizes="(min-width: 1200px) 360px, (min-width: 992px) 31vw, 100vw">
+                <img src="/media/blog/p5-400.jpg"
+                     srcset="/media/blog/p5-600.jpg 600w, /media/blog/p5-400.jpg 400w, /media/blog/p5-300.jpg 300w"
+                     sizes="(min-width: 1200px) 360px, (min-width: 992px) 31vw, 100vw"
+                     alt="تصویر مقاله"
+                     width="360" height="200" loading="lazy" decoding="async">
+              </picture>
+              <meta itemprop="url" content="https://www.booking.ir/media/blog/p5-600.jpg">
+              <meta itemprop="width" content="600">
+              <meta itemprop="height" content="334">
+            </figure>
+
+            <span class="post__category"
+                  role="link"
+                  tabindex="0"
+                  aria-label="مشاهده مقالات دسته سفر"
+                  onclick="event.preventDefault();event.stopPropagation();window.location='/blog/category/travel/';"
+                  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();window.location='/blog/category/travel/';}">
+              سفر
+            </span>
+
+            <h3 class="post__title" itemprop="headline">چک‌لیست سبک سفر: از برنامه تا بستن چمدان</h3>
+            <p class="post__excerpt" itemprop="description">نکات کاربردی برای سفرهای کوتاه و بلند…</p>
+
+            <dl class="post__meta">
+              <div>
+                <dt class="visually-hidden">نویسنده</dt>
+                <dd class="post__author" itemprop="author">ماهنوش</dd>
+              </div>
+              <div>
+                <dt class="visually-hidden">مدت زمان مطالعه</dt>
+                <dd class="post__readtime" itemprop="timeRequired">۳ دقیقه</dd>
+              </div>
+            </dl>
+          </article>
+        </a>
+      </li>
+
+      <li>
+        <a href="/blog/post/slug-6/" class="post-link">
+          <article class="post" itemscope itemtype="https://schema.org/Article">
+            <figure class="post__media" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+              <picture>
+                <source type="image/avif" srcset="/media/blog/p6-600.avif 600w, /media/blog/p6-400.avif 400w" sizes="(min-width: 1200px) 360px, (min-width: 992px) 31vw, 100vw">
+                <source type="image/webp" srcset="/media/blog/p6-600.webp 600w, /media/blog/p6-400.webp 400w" sizes="(min-width: 1200px) 360px, (min-width: 992px) 31vw, 100vw">
+                <img src="/media/blog/p6-400.jpg"
+                     srcset="/media/blog/p6-600.jpg 600w, /media/blog/p6-400.jpg 400w, /media/blog/p6-300.jpg 300w"
+                     sizes="(min-width: 1200px) 360px, (min-width: 992px) 31vw, 100vw"
+                     alt="تصویر مقاله"
+                     width="360" height="200" loading="lazy" decoding="async">
+              </picture>
+              <meta itemprop="url" content="https://www.booking.ir/media/blog/p6-600.jpg">
+              <meta itemprop="width" content="600">
+              <meta itemprop="height" content="334">
+            </figure>
+
+            <span class="post__category"
+                  role="link"
+                  tabindex="0"
+                  aria-label="مشاهده مقالات دسته محصول"
+                  onclick="event.preventDefault();event.stopPropagation();window.location='/blog/category/product/';"
+                  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();window.location='/blog/category/product/';}">
+              محصول
+            </span>
+
+            <h3 class="post__title" itemprop="headline">راهنمای سریع بهبود UX کارت‌های محتوا</h3>
+            <p class="post__excerpt" itemprop="description">پنج نکته کم‌هزینه برای افزایش کلیک و ماندگاری کاربر…</p>
+
+            <dl class="post__meta">
+              <div>
+                <dt class="visually-hidden">نویسنده</dt>
+                <dd class="post__author" itemprop="author">امیر</dd>
+              </div>
+              <div>
+                <dt class="visually-hidden">مدت زمان مطالعه</dt>
+                <dd class="post__readtime" itemprop="timeRequired">۴ دقیقه</dd>
+              </div>
+            </dl>
+          </article>
+        </a>
+      </li>
+    </ul>
+
+    <!-- Pagination -->
+    <nav class="pagination" aria-label="صفحه‌بندی">
+      <ul>
+        <li class="pagination__prev"><a href="/blog/page/1/" rel="prev">قبلی</a></li>
+        <li><a href="/blog/page/1/">۱</a></li>
+        <li><a href="/blog/page/2/">۲</a></li>
+        <li class="is-active"><span aria-current="page">۳</span></li>
+        <li><a href="/blog/page/4/">۴</a></li>
+        <li><a href="/blog/page/5/">۵</a></li>
+        <li class="pagination__next"><a href="/blog/page/4/" rel="next">بعدی</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <!-- ===== CATEGORY SECTION (sample) ===== -->
+  <section class="blog-cat" aria-labelledby="cat-seo-title">
+    <header class="blog-cat__header">
+      <h2 id="cat-seo-title" class="blog-cat__title">
+        <a href="/blog/category/seo/">سئو</a>
+      </h2>
+      <p class="blog-cat__desc">
+        آموزش‌ها و تحلیل‌های عملی برای بهبود رتبه، بهینه‌سازی ساختار و افزایش ترافیک ارگانیک.
+      </p>
+    </header>
+
+    <nav class="blog-cat__subs" aria-label="زیردسته‌های سئو">
+      <ul class="subcats">
+        <li><a href="/blog/category/seo/technical-seo/">سئوی تکنیکال</a></li>
+        <li><a href="/blog/category/seo/content-seo/">سئوی محتوا</a></li>
+        <li><a href="/blog/category/seo/link-building/">لینک‌سازی</a></li>
+        <li><a href="/blog/category/seo/analytics-seo/">آنالیتیکس و سئو</a></li>
+      </ul>
+    </nav>
+
+    <!-- 3 columns, up to 6 cards -->
+    <ul class="feed feed--cat3" aria-label="مقالات منتخب سئو">
+      <!-- شش کارت نمونه؛ ساختار دقیقاً مثل فید اصلی و با چیپ کتگوریِ JS -->
+      <!-- ... (نمونه‌ها مانند قبل؛ برای اختصار می‌توانید همان 201..206 را استفاده کنید) ... -->
+    </ul>
+  </section>
+</main>
